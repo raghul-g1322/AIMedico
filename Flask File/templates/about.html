@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+      .bg-dark {
+          background-color: rgb(39, 38, 36)!important;
+      }
+      #result {
+          color: #ffffff;
+      }
+      body {
+          background-image: url("https://images.unsplash.com/photo-1554034483-04fda0d3507b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbG9yJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D");
+          background-size: cover;
+      }
+
+      /* Add typing animation to "A B O U T" heading */
+      @keyframes typing {
+          from {
+              width: 0;
+          }
+          to {
+              width: 100%;
+          }
+      }
+
+      h3.typing {
+          overflow: hidden;
+          white-space: nowrap;
+          animation: typing 3s steps(20, end) forwards; /* Set animation-fill-mode to forwards */
+          font-size: 70px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0 auto; /* Center the heading */
+      }
+    </style> 
+  </head>
+  <body>
+    <div class="container my-4 mt-4">
+      <!-- Apply the typing class to the "A B O U T" heading -->
+      <h3 class="typing" style="text-align: center;text-shadow: 3px 2px 7px rgba(14, 1, 1, 0.5);"> A B O U T</h3>
+      <h3 style="text-align: center;margin-top: 30px;"> Creating a Web Application for Disease Diagnosis Based on Symptoms using Flask and Machine Learning</h3>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"> In the current age of technology and information, having timely access to accurate healthcare is more crucial than ever. Recognizing the growing significance of remote healthcare solutions, we undertook the development of a web application for disease diagnosis based on reported symptoms. By utilizing Flask for the backend and implementing a Decision Tree Classifier model, we have successfully crafted a user-friendly platform designed to assist users in identifying potential illnesses based on their symptoms.</p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"> The inception of this project was rooted in a common issue: individuals frequently experience symptoms and seek prompt answers regarding their health concerns. Distinguishing between different diseases becomes challenging, particularly when symptoms overlap. Our objective was to provide a convenient solution for users to input their symptoms and receive potential diagnoses swiftly.</p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"> We designed a web application that enables users to input a list of symptoms they are experiencing. The application utilizes a pre-trained Decision Tree Classifier model to predict the most probable disease based on the provided symptoms. Here's a breakdown of the process:</p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"><b>1. Symptom Input:</b> <i>Users input their symptoms through a user-friendly interface, accommodating a broad spectrum of symptoms for versatility.</i></p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"><b>2. Machine Learning Model:</b> <i> We trained a Decision Tree Classifier using a dataset containing symptoms and corresponding diseases, enabling the model to predict diseases based on input symptoms.</i></p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"><b>3. Prediction: </b> <i>The application utilizes the model to predict the most likely disease, furnishing users with instant information about potential health concerns.</i></p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"><b> 4. Additional Information: </b> <i>To enhance user experience, the application provides supplementary details about the predicted disease, including a disease description, recommended precautions, medications, dietary advice, and workout tips.</i></p>
+      <h5 style="margin-top: 30px;font-size: 30px;">Key Features:</h5>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"> - User-Friendly Interface: The application features an intuitive and easy-to-navigate interface, ensuring seamless symptom input for users.</p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"> - Accurate Predictions: Leveraging machine learning, our model delivers precise disease predictions based on user-provided symptoms.</p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"> - Comprehensive Information: Alongside predictions, the application offers extensive information about the predicted disease, encompassing descriptions, precautions, medications, dietary recommendations, and workout tips.</p>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;"> - Educational Content: To empower users with knowledge, the application includes informative blog posts covering various health topics.</p>
+
+      <h6 style="margin-top: 30px;font-size: 30px;">Advantage</h6>
+      <p style="text-align: left;margin-top: 15px;font-size: 17px;margin-top: 20px;">Our Symptom-Based Disease Diagnosis Web Application leverages the capabilities of machine learning and healthcare information, providing users with valuable insights into their health conditions swiftly and conveniently. This initiative aims to bridge the gap between technology and healthcare, making healthcare more accessible and user-centric. In an era where remote healthcare solutions are gaining prominence, this project represents a substantial stride in delivering accessible and reliable healthcare information to a global audience. We anticipate that this endeavor will contribute significantly to health awareness, ultimately enhancing the well-being of individuals worldwide.</p>
+
+
+      
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
